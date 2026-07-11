@@ -1,5 +1,5 @@
 import streamlit as st
-from services.state_manager import init_state, reset_interview
+from Services.state_manager import init_state, reset_interview
 
 st.set_page_config(page_title="PrimeCrown Interview Prep App", page_icon="🎓", layout="wide")
 init_state()
